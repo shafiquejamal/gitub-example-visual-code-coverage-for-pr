@@ -7,8 +7,8 @@ describe('sample test', () => {
 
 	// See https://github.com/shafiquejamal/github-jest-coverage
 	it('Should partially cover the exampleForTestCoverage function :-p', () => {
-		expect(exampleForTestCoverage(6)).toEqual(
-			'Input number 6 was greater than 5',
+		expect(exampleForTestCoverage(600)).toEqual(
+			'Input number 600 was greater than 500.',
 		);
 	});
 });
